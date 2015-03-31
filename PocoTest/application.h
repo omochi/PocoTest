@@ -8,7 +8,16 @@
 
 #pragma once
 
-#include<stdio.h>
+#include <stdio.h>
+#include <iostream>
+#include <memory>
+
+#include <Poco/StreamCopier.h>
+#include <Poco/URI.h>
+#include <Poco/Net/HTTPClientSession.h>
+#include <Poco/Net/HTTPRequest.h>
+#include <Poco/Net/HTTPResponse.h>
+
 
 class Application {
 public:

@@ -14,6 +14,16 @@
 		D67DCE2D1ACAE4BF00188557 /* PocoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67DCE2C1ACAE4BF00188557 /* PocoTestTests.swift */; };
 		D67DCE391ACAE70900188557 /* application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67DCE371ACAE70900188557 /* application.cpp */; };
 		D67DCE3C1ACAE85700188557 /* application_bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67DCE3B1ACAE85700188557 /* application_bridge.cpp */; };
+		D67DCE491ACAF21A00188557 /* libPocoFoundation.30.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE3F1ACAF21A00188557 /* libPocoFoundation.30.dylib */; };
+		D67DCE4A1ACAF21A00188557 /* libPocoFoundation.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE401ACAF21A00188557 /* libPocoFoundation.dylib */; };
+		D67DCE4B1ACAF21A00188557 /* libPocoJSON.30.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE411ACAF21A00188557 /* libPocoJSON.30.dylib */; };
+		D67DCE4C1ACAF21A00188557 /* libPocoJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE421ACAF21A00188557 /* libPocoJSON.dylib */; };
+		D67DCE4D1ACAF21A00188557 /* libPocoNet.30.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE431ACAF21A00188557 /* libPocoNet.30.dylib */; };
+		D67DCE4E1ACAF21A00188557 /* libPocoNet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE441ACAF21A00188557 /* libPocoNet.dylib */; };
+		D67DCE4F1ACAF21A00188557 /* libPocoUtil.30.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE451ACAF21A00188557 /* libPocoUtil.30.dylib */; };
+		D67DCE501ACAF21A00188557 /* libPocoUtil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE461ACAF21A00188557 /* libPocoUtil.dylib */; };
+		D67DCE511ACAF21A00188557 /* libPocoXML.30.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE471ACAF21A00188557 /* libPocoXML.30.dylib */; };
+		D67DCE521ACAF21A00188557 /* libPocoXML.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DCE481ACAF21A00188557 /* libPocoXML.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +51,16 @@
 		D67DCE381ACAE70900188557 /* application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = application.h; sourceTree = "<group>"; };
 		D67DCE3A1ACAE80600188557 /* application_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = application_bridge.h; sourceTree = "<group>"; };
 		D67DCE3B1ACAE85700188557 /* application_bridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = application_bridge.cpp; sourceTree = "<group>"; };
+		D67DCE3F1ACAF21A00188557 /* libPocoFoundation.30.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoFoundation.30.dylib; sourceTree = "<group>"; };
+		D67DCE401ACAF21A00188557 /* libPocoFoundation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoFoundation.dylib; sourceTree = "<group>"; };
+		D67DCE411ACAF21A00188557 /* libPocoJSON.30.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoJSON.30.dylib; sourceTree = "<group>"; };
+		D67DCE421ACAF21A00188557 /* libPocoJSON.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoJSON.dylib; sourceTree = "<group>"; };
+		D67DCE431ACAF21A00188557 /* libPocoNet.30.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoNet.30.dylib; sourceTree = "<group>"; };
+		D67DCE441ACAF21A00188557 /* libPocoNet.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoNet.dylib; sourceTree = "<group>"; };
+		D67DCE451ACAF21A00188557 /* libPocoUtil.30.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoUtil.30.dylib; sourceTree = "<group>"; };
+		D67DCE461ACAF21A00188557 /* libPocoUtil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoUtil.dylib; sourceTree = "<group>"; };
+		D67DCE471ACAF21A00188557 /* libPocoXML.30.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoXML.30.dylib; sourceTree = "<group>"; };
+		D67DCE481ACAF21A00188557 /* libPocoXML.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPocoXML.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +68,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67DCE511ACAF21A00188557 /* libPocoXML.30.dylib in Frameworks */,
+				D67DCE4D1ACAF21A00188557 /* libPocoNet.30.dylib in Frameworks */,
+				D67DCE501ACAF21A00188557 /* libPocoUtil.dylib in Frameworks */,
+				D67DCE4E1ACAF21A00188557 /* libPocoNet.dylib in Frameworks */,
+				D67DCE4A1ACAF21A00188557 /* libPocoFoundation.dylib in Frameworks */,
+				D67DCE521ACAF21A00188557 /* libPocoXML.dylib in Frameworks */,
+				D67DCE4C1ACAF21A00188557 /* libPocoJSON.dylib in Frameworks */,
+				D67DCE4F1ACAF21A00188557 /* libPocoUtil.30.dylib in Frameworks */,
+				D67DCE491ACAF21A00188557 /* libPocoFoundation.30.dylib in Frameworks */,
+				D67DCE4B1ACAF21A00188557 /* libPocoJSON.30.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +112,7 @@
 		D67DCE161ACAE4BF00188557 /* PocoTest */ = {
 			isa = PBXGroup;
 			children = (
+				D67DCE3D1ACAF20A00188557 /* poco */,
 				D67DCE191ACAE4BF00188557 /* AppDelegate.swift */,
 				D67DCE1B1ACAE4BF00188557 /* ViewController.swift */,
 				D67DCE1D1ACAE4BF00188557 /* Images.xcassets */,
@@ -119,6 +150,32 @@
 				D67DCE2B1ACAE4BF00188557 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D67DCE3D1ACAF20A00188557 /* poco */ = {
+			isa = PBXGroup;
+			children = (
+				D67DCE3E1ACAF21A00188557 /* lib */,
+			);
+			name = poco;
+			sourceTree = "<group>";
+		};
+		D67DCE3E1ACAF21A00188557 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D67DCE3F1ACAF21A00188557 /* libPocoFoundation.30.dylib */,
+				D67DCE401ACAF21A00188557 /* libPocoFoundation.dylib */,
+				D67DCE411ACAF21A00188557 /* libPocoJSON.30.dylib */,
+				D67DCE421ACAF21A00188557 /* libPocoJSON.dylib */,
+				D67DCE431ACAF21A00188557 /* libPocoNet.30.dylib */,
+				D67DCE441ACAF21A00188557 /* libPocoNet.dylib */,
+				D67DCE451ACAF21A00188557 /* libPocoUtil.30.dylib */,
+				D67DCE461ACAF21A00188557 /* libPocoUtil.dylib */,
+				D67DCE471ACAF21A00188557 /* libPocoXML.30.dylib */,
+				D67DCE481ACAF21A00188557 /* libPocoXML.dylib */,
+			);
+			name = lib;
+			path = poco/lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,8 +400,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(PROJECT_DIR)/PocoTest/poco/include",
+				);
 				INFOPLIST_FILE = PocoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/PocoTest/poco/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PocoTest/PocoTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -357,8 +420,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(PROJECT_DIR)/PocoTest/poco/include",
+				);
 				INFOPLIST_FILE = PocoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/PocoTest/poco/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PocoTest/PocoTest-Bridging-Header.h";
 			};
